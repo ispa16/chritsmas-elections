@@ -1,0 +1,18 @@
+
+/*** carousel color code and sizing **/ 
+.carousel-block {
+    padding: 10em;
+    background-color: #960c0c;
+    width: 100%;
+  }
+  .carousel-block1 {
+    padding: 10em;
+    background-color: #ba0f0f;
+    width: 100%;
+  }
+  .carousel-block2 {
+    padding: 10em;
+    background-color: #d23434;
+    width: 100%;
+  }
+  
