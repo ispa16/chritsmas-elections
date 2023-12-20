@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premios</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: "Open Sans", "open-sans", sans-serif;
+      letter-spacing: 0.03em;
+      line-height: 1.6;
+      color: #000000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      padding-top: 50px;
+      text-align: center;
+    }
+
+    .title {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .description {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      width: 300px;
+      margin: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      text-align: center;
+      transition: all 0.25s;
+      background-color: #ffffff;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    h4 {
+      font-weight: 600;
+      margin: 10px 0;
+    }
+
+    p {
+      padding: 0 10px;
+      font-size: 16px;
+      font-weight: 300;
+      margin-bottom: 10px;
+    }
+
+    a {
+      display: inline-block;
+      margin-bottom: 10px;
+      font-weight: 500;
+      text-decoration: none;
+      color: #3498db;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="title">Nominados a premio Randy Marsh al peor borracho 2023</h1>
+        <p class="description">El 'Premio al Peor borracho' se entrega a la persona mas belicosa en las pedas.
+        </p>
+        <img
+          src="data:image/jpeg;base64,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"
+          alt="">
+        <br><br>
+      </div>
+    </div>
+    <center>
+      <div class="row justify-content-center" style="background-color: blanchedalmond;">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/lucho.jpg">
+            <h4>Luis Fernando</h4>
+            <p>Por sus borracheras con vino. </p>
+            <a name="11 fernando" href="#">Votar por Luis</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/carla.jpg">
+            <h4>Carlita</h4>
+            <p>Por que una ves se puso a llorar
+            </p>
+            <a name="11 Carlita" href="#">Votar por Carlita</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/luna.jpg">
+            <h4>Luis Luna</h4>
+            <p>Porque lo cogieron los patrulleros por conducir ebrio </p>
+            <a name="11 luna" href="#">Votar por Luis Luna</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/luna.jpg">
+            <h4>Luis Luna</h4>
+            <p>Porque lo cogieron los patrulleros por conducir ebrio </p>
+            <a name="11 luna" href="#">Votar por Luis Luna</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/luna.jpg">
+            <h4>Chino</h4>
+            <p>Porque su carro sigue preso </p>
+            <a name="11 chino" href="#">Votar por Chino</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/diego.jpg">
+            <h4>Diego</h4>
+            <p>Por ser el fantasma de las navidades pasadas </p>
+            <a name="11 Diego" href="#">Votar por Diego</a>
+          </div>
+        </div>
+      </div>
+  </div>
+  </center>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const enlaces = document.querySelectorAll('a');
+
+      enlaces.forEach(function (enlace) {
+        enlace.addEventListener("click", function (event) {
+          event.preventDefault(); // Evita que el enlace cambie la página
+
+          const nombre = enlace.getAttribute('name');
+          const url = `https://ispa16.pythonanywhere.com/api/chritsmas/${nombre}`; // Construir la URL con el atributo name
+
+          // Hacer la solicitud GET a la URL construida
+          fetch(url, {
+            method: 'GET'
+          })
+            .then(function (response) {
+              // Redirigir a index.html después de la solicitud
+
+            })
+            .catch(function (error) {
+              console.error('Error:', error);
+            });
+          window.location.href = 'gracias.html';
+        });
+      });
+    });
+
+  </script>
+</body>
+
+</html>
